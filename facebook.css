@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(240, 242, 245, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pic{
+    width: 60%;
+    /* height: 70px; */
+    /* margin-left: 35px; */
+    /* padding-bottom: 0px; */
+    /* border: 1px solid black; */
+    
+}
+
+img{
+    /* width: 300px; */
+object-fit: contain;
+/* position: fixed; */
+/* top: 25%; */
+/* border: 1px solid; */
+/* width: 80%; */
+}
+.top{
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    /* gap: 30px; */
+
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    /* flex-wrap: wrap; */
+    /* align-items:flex-end; */
+    /* justify-content: center; */
+    /* margin-top: 50px; */
+    margin-left: 150px;
+    /* border: 1px solid black; */
+
+}
+.caption{
+    font-size: 24px;
+    padding-left: 35px;
+    /* border: 1px solid; */
+    height:auto;
+}
+form{
+    border: 1px solid #dadde1;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 40px; */
+    /* justify-content: space-evenly; */
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px #dadde1;
+
+}
+.form{
+    /* border: 1px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#email , #password{
+    /* margin: 9px 9px; */
+    height: 45px;
+    width: 97%;
+    margin-bottom: 10px;
+    text-indent: 0.6rem;
+    border-radius: 4px;
+    border: 1px solid lightblue;
+}
+#login{
+    display: block;
+    margin-bottom: 10px;
+    height:45px;
+    width:100%;
+    background-color: #1877F2;
+    border: 1px solid #1877F2;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+#forgot{
+    text-decoration: none;
+    border: none;
+    /* margin-left: 0px; */
+    font-size: 12px;
+    color: #1877F2;
+    margin: 10px 0;
+}
+form hr{
+    width: 100%;
+    background-color: #dadde1;
+    height: 1px;
+    border: 0;
+}
+#createAccount{
+    margin-top: 15px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #42B72A;
+    background-color: #42B72A;
+    color: white;
+    padding: 5px 30px;
+}
+#celebrity{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+#celebrity a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.bottom{
+    background-color: white;
+    padding: 2% 13%;
+}
+.toplink{
+    margin: 5px;
+}
+.toplink a{
+    text-decoration: none;
+    color: #8A8D91;
+    font-size: 12px;
+    margin-right: 4px;
+}
+.bottomlinks{
+    margin:10px
+}
+.bottomlinks a{
+    text-decoration: none;
+    color: #8A8D91;
+    margin-right: 8px;
+    font-size: 12px;
+
+}
+#copyright{
+    color:#737373;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 25px;
+}
